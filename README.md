@@ -38,5 +38,5 @@ O projeto segue a arquitetura de Page Objects, organizando o código de forma mo
 
 ## Referências
 - [Goodreads](https://www.goodreads.com/): Saiba mais sobre a plataforma Goodreads.
-
-![Exemplo de execução](doc/execucao1712.mp4)
+  
+- [Exemplo de execução](doc/execucao1712.mp4)
