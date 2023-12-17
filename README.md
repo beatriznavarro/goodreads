@@ -12,7 +12,8 @@ Este projeto tem como objetivo automatizar o aplicativo Goodreads utilizando Pyt
 O projeto segue a arquitetura de Page Objects, organizando o código de forma modular e facilitando a manutenção. Cada página do aplicativo Goodreads é representada por uma classe específica, contendo métodos para interagir com os elementos da página.
 
 ## Pré-requisitos
-Para executar os testes com sucesso, o usuário deve ter uma conta no Goodreads e estar logado no aplicativo.
+- Para executar os testes com sucesso, o usuário deve ter uma conta no Goodreads e estar logado no aplicativo.
+- O aplicativo deverá utilizar o idioma PTB.
 
 ## Instruções para Execução
 1. **Configuração do Ambiente:**
@@ -38,4 +39,4 @@ Para executar os testes com sucesso, o usuário deve ter uma conta no Goodreads 
 ## Referências
 - [Goodreads](https://www.goodreads.com/): Saiba mais sobre a plataforma Goodreads.
 
-## Vídeo da automação executando: [Exemplo de execução](doc/execucao1712.mp4)
+![Exemplo de execução](doc/execucao1712.mp4)
