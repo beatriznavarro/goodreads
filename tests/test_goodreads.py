@@ -44,7 +44,7 @@ class TestGoodreads(BaseTest):
           tagName = 'My New Tag:' + fake_name
           MyBooks.createTag(self,tagName)
           assert MyBooks.isSucessMessageVisible(self), "A mensagem de sucesso não está visível!"
-      
+
      def test_add_tag_to_book(self):
           #cria tag
           MyBooks.openMyBooks(self)
@@ -82,4 +82,5 @@ class TestGoodreads(BaseTest):
           MyBooks.deleteBookshelfWithBook(self,bookshelfName)
           
 if __name__ == '__main__':
-     unittest.main()
+     suite = unittest.TestLoader().loadTestsFromTestCase(TestGoodreads)
+     unittest.TextTestRunner(verbosity=2).run(suite)
